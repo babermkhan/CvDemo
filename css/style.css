@@ -1,0 +1,501 @@
+body{
+    background: lightgray;
+}
+.mainDiv{
+    /* border: 1px solid black; */
+    height: 980px;
+    width: 781px;
+    margin: auto;
+    background: steelblue;
+    
+}
+.detailDiv{
+    /* border: 1px solid black; */
+    height: 980px;
+    width: 510px;
+    float: right;
+    border-top-left-radius: 6em;
+    border-bottom-left-radius: 6em;
+    background: white;
+    
+}
+.picture{
+    border: 4px solid white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 4%;
+    margin-left: 6.5%;
+}
+.mainDiv h2{
+    font-family: sans-serif;
+    font-size: 26pt;
+    color: #706767;
+    text-align: center;
+    margin-right: 40%;
+    margin-top: 10%;
+    margin-left: 17%;
+    margin-bottom: 4%;
+}
+.mainDiv h1{
+    font-family: sans-serif;
+    font-size: 26pt;
+    text-align: center;
+    margin-right: -3%;
+    line-height: 0%;
+    color: steelblue;
+    
+}
+.mainDiv h4{
+    font-family: sans-serif;
+    text-align: center;
+    margin-right: 8%;
+    color: darkgray;
+}
+.picture img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.contact h4{
+    font-family: sans-serif;
+    margin-right: 81% !important;
+    color: white;
+    margin-top: 4%;
+    font-size: 11pt;
+}
+.phone, .address{
+    margin-left: 5%;
+    color: white;
+    font-size: 10pt;
+}
+.address{
+    margin-left: 9%;
+    margin-top: -19px;
+    color: white;
+    font-size: 9pt;
+    font-family: sans-serif;
+}
+.location{
+    margin-top: 3%;
+    margin-left: 5.5%;
+    color: white;
+}
+.phoneNumber{
+    margin-left: 8.5%;
+    color: white;
+    font-size: 9pt;
+    font-style: normal;
+    margiin-bottom: -8%;
+    margin-bottom: -4.5%;
+    font-family: sans-serif;
+    
+}
+#phoneFirstNumber{
+    margin-top: -3%;
+    font-family: sans-serif;
+}
+.emailAddress{
+    display: block;
+    margin-top: 3%;
+    margin-left: 5%;
+    color: white;
+    
+}
+.email1{
+    margin-left: 8.5%;
+    color: white;
+    font-size: 9pt;
+    margin-top: -3.5%;
+    font-family: sans-serif;
+}
+.email2{
+    margin-left: 8.7%;
+    color: white;
+    font-size: 9pt;
+    display: inline-block;
+    font-family: sans-serif;
+}
+.personal h4{
+    font-family: sans-serif;
+    margin-right: 80% !important;
+    color: white;
+    font-size: 11pt;
+    margin-bottom: 2%;
+}
+.software h4{
+    font-family: sans-serif;
+    margin-right: 80% !important;
+    color: white;
+    font-size: 11pt;
+    margin-bottom: 2%;
+}
+.languages h4{
+    font-family: sans-serif;
+    margin-right: 78% !important;
+    color: white;
+    font-size: 11pt;
+    margin-bottom: 2%;
+}
+.MyHobbies h4{
+    font-family: sans-serif;
+    margin-right: 81% !important;
+    color: white;
+    font-size: 11pt;
+    margin-bottom: 2%;
+}
+.birthday, .dateYear, .relationship, .nationality, .language{
+    font-family: sans-serif;
+    color: white;
+    font-size: 9pt;
+    margin-left: 39px;
+}
+.single{
+    font-family: sans-serif;
+    color: white;
+    font-size: 9pt;
+    margin-left: 18px;
+}
+.pakistani{
+    font-family: sans-serif;
+    color: white;
+    font-size: 9pt;
+    margin-left: 28px;
+}
+.urduEng{
+    font-family: sans-serif;
+    color: white;
+    font-size: 9pt;
+    margin-left: 31px;
+}
+.skills h4{
+    font-family: sans-serif;
+    margin-right: 84% !important;
+    color: white;
+    font-size: 11pt;
+    margin-bottom: 2%;
+}
+.communication, .creativity, .innovative, .hobbies, .html, .css, .bootstrap, .javascript{
+    font-family: sans-serif;
+    color: white;
+    font-size: 9pt;
+    margin-left: 39px;
+    display: inline-block;
+}
+.communiBar{
+    width: 94px !important;
+    height: 2px;
+    border: 1px solid white;
+    display: inline-flex;
+    background: white;
+    margin-left: 18px;
+}
+.communiInnerSpan{
+    width: 39px;
+    height: 2px;
+    display: inline-block;
+    background: #9e9e9e;
+    margin-left: 55px;
+}
+.teamworkInnerSpan{
+    width: 39px;
+    height: 2px;
+    display: inline-block;
+    background: #9e9e9e;
+    margin-left: 55px;
+}
+.creativityBar{
+    width: 94px;
+    height: 2px;
+    border: 1px solid white;
+    display: inline-flex;
+    background: white;
+    margin-left: 51px;
+}
+.creativityInnerSpan{
+    width: 38px;
+    height: 2px;
+    display: inline-block;
+    background: #9e9e9e;
+    margin-left: 68px;
+}
+.teamwork{
+    font-family: sans-serif;
+    color: white;
+    font-size: 9pt;
+    margin-left: 39px;
+    display: inline-block;
+}
+.teamworkBar{
+    width: 94px;
+    height: 2px;
+    border: 1px solid white;
+    display: inline-flex;
+    background: white;
+    margin-left: 46px;
+}
+.innovativeBar{
+    width: 94px;
+    height: 2px;
+    border: 1px solid white;
+    display: inline-flex;
+    background: white;
+    margin-left: 46px;
+}
+.innovativeInnerSpan{
+    width: 32px;
+    height: 2px;
+    display: inline-block;
+    background: #9e9e9e;
+    margin-left: 64px;
+}
+.hobbiesBar{
+    width: 94px;
+    height: 2px;
+    border: 1px solid white;
+    display: inline-flex;
+    background: white;
+    margin-left: 57px;
+}
+.hobbiesInnerSpan{
+    width: 32px;
+    height: 2px;
+    display: inline-block;
+    background: #9e9e9e;
+    margin-left: 86px;
+}
+.htmlBar{
+    width: 94px;
+    height: 2px;
+    border: 1px solid white;
+    display: inline-flex;
+    background: white;
+    margin-left: 67px;
+}
+.cssBar{
+    width: 94px;
+    height: 2px;
+    border: 1px solid white;
+    display: inline-flex;
+    background: white;
+    margin-left: 74px;
+}
+.cssInnerSpan{
+    width: 32px;
+    height: 2px;
+    display: inline-block;
+    background: #9e9e9e;
+    margin-left: 86px;
+}
+.bootstrapBar{
+    width: 94px;
+    height: 2px;
+    border: 1px solid white;
+    display: inline-flex;
+    background: white;
+    margin-left: 25px;
+}
+.bootstrapInnerSpan{
+    width: 32px;
+    height: 2px;
+    display: inline-block;
+    background: #9e9e9e;
+    margin-left: 89px;
+}
+.javascriptBar{
+    width: 94px;
+    height: 2px;
+    border: 1px solid white;
+    display: inline-flex;
+    background: white;
+    margin-left: 27px;
+}
+.javascriptInnerSpan{
+    width: 32px;
+    height: 2px;
+    display: inline-block;
+    background: #9e9e9e;
+    margin-left: 63px;
+}
+.swimming{
+    margin-left: 5.5%;
+    color: white;
+}
+.swim{
+    font-family: sans-serif;
+    color: white;
+    font-size: 8pt;
+    margin-top: 7px;
+    font-weight: 100;
+}
+.travel, .tabletennis{
+    margin-left: 3.5%;
+    color: white;
+}
+.travelling, .gaming{
+    font-family: sans-serif;
+    color: white;
+    font-size: 8pt;
+    margin-top: 9px;
+    font-weight: 100;
+}
+.gamePlay{
+    margin-left: 3.5%;
+    color: white;
+}
+.computer{
+    margin-left: 5.5%;
+    color: white;
+}
+.desktop{
+    font-family: sans-serif;
+    color: white;
+    font-size: 8pt;
+    margin-top: 9px;
+    font-weight: 100;
+}
+.indoorTennis{
+    font-family: sans-serif;
+    color: white;
+    font-size: 8pt;
+    margin-top: 9px;
+    font-weight: 100;
+}
+.speedRunning{
+    margin-left: 2.3%;
+    color: white;
+}
+.outdoorRunning{
+    font-family: sans-serif;
+    color: white;
+    font-size: 8pt;
+    margin-top: 9px;
+    font-weight: 100;
+}
+.marginHeadings  ~p {
+    font-family: sans-serif;
+    font-size: 10pt;
+    text-align: justify;
+    line-height: 19px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+.marginHeadings, .experience, .education {
+    font-size: 11pt;
+    font-family: sans-serif;
+    padding-left: 35px;
+    color: steelblue;
+    font-weight: bold;
+    display: inline;
+}
+.dots, .Educationdots{
+    font-weight: bold;
+    font-size: 13pt;
+}
+.seniorWd{
+    font-family: sans-serif;
+    font-size: 8pt;
+    text-align: justify;
+    padding-left: 34px;
+    padding-right: 34px;
+    font-weight: bold;
+    display: inline-block;
+}
+.uniName{
+    font-family: sans-serif;
+    font-size: 8pt;
+    text-align: justify;
+    padding-left: 34px;
+    padding-right: 50px;
+    font-weight: bold;
+    display: inline-block;
+}
+.verticalBar{
+    border-left: 2px solid #c3c0c0;
+    height: 54px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4px;
+    font-weight: bold;
+    font-size: 13pt;
+}
+.companyName, .companyBesthive, .uniDetails, .collegeDetails, .schoolDetails{
+    font-family: sans-serif;
+    font-size: 8pt;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 34px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+}
+.companyDetail, .besthiveDetail{
+    font-family: sans-serif;
+    font-size: 8pt;
+    text-align: justify;
+    line-height: 19px;
+    padding-left: 202px;
+    padding-right: 26px;
+    float: right;
+    margin-top: -37px;
+    margin-bottom: 29px;
+}
+.UniversityDetails{
+    font-family: sans-serif;
+    font-size: 8pt;
+    text-align: justify;
+    line-height: 19px;
+    padding-left: 202px;
+    padding-right: 147px;
+    float: right;
+    margin-top: -37px;
+    margin-bottom: 29px;
+}
+
+.expYears, .universityYears, .collegeYears, .schoolYears{
+    color: gray;
+    font-family: fangsong;
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 9pt;
+}
+.intermediate{
+    font-family: sans-serif;
+    font-size: 8pt;
+    text-align: justify;
+    line-height: 19px;
+    padding-left: 202px;
+    padding-right: 184px;
+    float: right;
+    margin-top: -37px;
+    margin-bottom: 29px;
+}
+.collegeName{
+    font-family: sans-serif;
+    font-size: 8pt;
+    text-align: justify;
+    padding-left: 34px;
+    padding-right: 64px;
+    font-weight: bold;
+    display: inline-block;
+}
+.Metric{
+    font-family: sans-serif;
+    font-size: 8pt;
+    text-align: justify;
+    line-height: 19px;
+    padding-left: 178px;
+    padding-right: 118px;
+    float: right;
+    margin-top: -37px;
+    margin-bottom: 29px;
+}
+.schoolName{
+    font-family: sans-serif;
+    font-size: 8pt;
+    text-align: justify;
+    padding-left: 34px;
+    padding-right: 67px;
+    font-weight: bold;
+    display: inline-block;
+}
